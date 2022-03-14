@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Six Revisions">
+  <meta name="description" content="How to use the CSS background-size property to make an image fully span the entire viewport.">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Font Awesome -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+</head>
+
+<body>
+  <header class=" header" id="title">
+    <section class="content">
+        <h1 class="big-heading">
+          <p class=""></p>Hi, I am
+          <span class="word"></span>
+        </h1>
+
+
+    </section>
+  </header>
+
+
+
+
+  <section class="white-section" id="about">
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-box  about-right">
+            <h1 class="about-title">Areas Of Expertise</h1>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="about-box  about-left">
+            <br><br><br><br>
+            <h3 class="small-heading">Website</h3>
+            <p class="txt-box">Do you need a new website or should we make your old one shine again?
+              I work with the newest web technologies and solutions within JavaScript, HTML, CSS and PHP.</p> <br>
+            <h3 class="small-heading">Web App</h3>
+            <p class="txt-box">If you need more power and functionality than a website, performance, fast loading and an
+              app-like feel, a web app is the right choice for you. You can access it anywhere, anytime!</p><br>
+            <h3 class="small-heading">UX Design</h3>
+            <p class="txt-box">Do you want to improve your user experience of your product, jadadadada</p><br>
+            <h3 class="small-heading">System Development</h3>
+            <p class="txt-box">When designig a product after your needs, its important to know how to plan it out jdadada</p><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+  </section>
+
+
+    <h1 class="section-title-right">My Skills</h1>
+  <section id="skill-section">
+
+
+
+
+
+
+
+    <div class="container skill">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="carousel slide multi-item-carousel" id="theCarousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="col-xs-4"><a href="#1"><img src="images/html-5.svg" class="img-responsive"></a></div>
+              </div>
+
+              <div class="item">
+                <div class="col-xs-4"><a href="#1"><img src="images/css.svg" class="img-responsive"></a></div>
+              </div>
+              <div class="item">
+                <div class="col-xs-4"><a href="#1"><img src="images/javascript.svg" class="img-responsive"></a></div>
+              </div>
+              <div class="item">
+                <div class="col-xs-4"><a href="#1"><img src="images/dotnet.png" class="img-responsive dotnet-resize"></a></div>
+              </div>
+              <div class="item">
+                <div class="col-xs-4"><a href="#1"><img src="images/c-sharp.svg" class="img-responsive dotnet-resize"></a></div>
+              </div>
+              <div class="item">
+                <div class="col-xs-4"><a href="#1"><img src="images/java.svg" class="img-responsive java-resize"></a></div>
+              </div>
+
+              <!-- add  more items here -->
+              <!-- Example item start:  -->
+
+
+
+              <!--  Example item end -->
+            </div>
+            <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left skill-control"></i></a>
+            <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right skill-control"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+        <!-- Projects -->
+
+
+      <section class="white-section" >
+                 <h1 class="py-3 section-title-left" id="project">My Projects</h1>
+        <div class="container">
+       <div class="row">
+          <div class="col-lg-12 text-center my-2">
+
+
+          </div>
+       </div>
+       <div class="portfolio-item row">
+          <div class="item selfie col-lg-4 col-md-6 col-sm-12">
+             <a href="images/tindog.png" class="fancylight popup-btn" data-fancybox-group="light">
+             <img class="img-fluid project-image" src="images/tindog-mini" alt="">
+             </a>
+             <h3 class="small-heading">tindog</h3>
+             <p class="project-description-center txt-box">An App for your dog, so it no longer have to sniff other dogs for love</p>
+          </div>
+          <div class="item gts col-lg-3 col-lg-4 col-md-6 col-sm-12">
+             <a href="images/fightclub.png" class="fancylight popup-btn" data-fancybox-group="light">
+             <img class="img-fluid project-image" src="images/fightclub-mini.jpg" alt="">
+             </a>
+             <h3 class="small-heading">Fight Club</h3>
+             <p class="project-description-center txt-box">A Game for every familiy, beat your oncel or grand mother with jokes and sarcasme</p>
+          </div>
+          <div class="item selfie col-lg-4 col-md-6 col-sm-12">
+            <a href="images/ToDo.png" class="fancylight popup-btn" data-fancybox-group="light">
+            <img class="img-fluid project-image" src="images/ToDo-mini.jpg" alt="">
+             </a>
+             <h3 class="project-description-right small-heading">To Do List</h3>
+             <p class="project-description-right txt-box">In a stressy sociaty, it is important to put down your priorities</p>
+          </div>
+          <div class="item gts col-lg-4 col-md-6 col-sm-12">
+            <a href="images/DrumKit.png" class="fancylight popup-btn" data-fancybox-group="light">
+            <img class="img-fluid project-image" src="images/DrumKit-mini.jpg" alt="">
+             </a>
+             <h3 class="small-heading">Start a band</h3>
+             <p class="project-description-left txt-box">Wanna be like Lars Ulrich, or just anoy your neighbour, then this app is for you</p>
+          </div>
+          <div class="item gts col-lg-4 col-md-6 col-sm-12">
+            <a href="images/SimonGame.png" class="fancylight popup-btn" data-fancybox-group="light">
+            <img class="img-fluid project-image" src="images/SimonGame-mini.jpg" alt="">
+             </a>
+             <h3 class="small-heading">Simon Game</h3>
+             <p class="project-description-center txt-box">A game to test your grand parents memory</p>
+          </div>
+          <div class="item gts col-lg-4 col-md-6 col-sm-12">
+            <a href="images/DiceGame.png" class="fancylight popup-btn" data-fancybox-group="light">
+            <img class="img-fluid project-image" src="images/DiceGame-mini.jpg" alt="">
+             </a>
+             <h3 class="small-heading">Dice Game</h3>
+             <p class="project-description-left txt-box">Take a chance on roll the dice for the empty the dishwasher or love!</p>
+          </div>
+
+       </div>
+    </div>
+
+      </section>
+
+
+
+
+      <section class="contact-section">
+    <div class="contact-container">
+      <div class="contactForm">
+        <h2>Send a Message</h2>
+        <div class="formBox">
+          <div class="inputBox w50">
+            <input type="text" name="" required>
+            <span>First Name</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" name="" required>
+            <span>Last Name</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" name="" required>
+            <span>Email Address</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" name="" required>
+            <span>Mobile Number</span>
+          </div>
+          <div class="inputBox w100">
+            <textarea name="" required></textarea>
+            <span>Write your message here...</span>
+          </div>
+          <div class="inputBox w100">
+            <input type="submit" value="Send">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>
